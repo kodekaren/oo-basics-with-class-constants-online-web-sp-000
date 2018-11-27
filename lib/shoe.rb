@@ -4,6 +4,8 @@ class Shoe
 BRANDS = []
   def initialize(brand)
     @brand = brand
+    brand.wach do |brand|
+      if brand =! brand
     BRANDS<<brand
   end
 
