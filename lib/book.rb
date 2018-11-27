@@ -1,6 +1,6 @@
 class Book
   attr_accessor :author, :page_count, :genre
-  attr_reader :title, GENRES
+  attr_reader :title, :GENRES
 
   def initialize(title, GENRES)
     @GENRES = GENRES
@@ -11,4 +11,4 @@ class Book
     puts "Flipping the page...wow, you read fast!"
   end
 
-end
+end 
